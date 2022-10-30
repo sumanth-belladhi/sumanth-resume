@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #121321;
+}
+
+@media screen and (max-width:720px) {
+    .content .top {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .content .top .name-quali {
+        align-items: center;
+        margin: 0px 0px;
+    }
+    .content .content-data {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.3vh;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.top a {
+    font-size: 2.5rem;
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+    margin: 1% 1%;
+}
+
+.top a i {
+    color: white;
+}
+
+.container {
+    border: .5px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 25px 45px rgba(0px, 0px, 0px, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    border-radius: 3vmax;
+    height: max-content;
+    max-width: 1260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vmax 0px 10vmax 0px;
+}
+
+.content {
+    padding: 5vmax 5vmax;
+    height: 100%;
+}
+
+.image {
+    width: 13vmax;
+    height: 13vmax;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: circle(45%);
+    display: flex;
+    align-items: center;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.top .name-quali {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5vw;
+}
+
+.top .name-quali h3 {
+    color: white;
+    letter-spacing: .2vw;
+    font-size: 2.5vmax;
+}
+
+.top .name-quali span {
+    font-size: 1.5vmax;
+    color: gray;
+}
+
+.content-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2vh 0px;
+    gap: 10vw;
+}
+
+ion-icon {
+    color: skyblue;
+}
+
+i {
+    color: skyblue;
+}
+
+.interests div span {
+    margin-left: 8px;
+    margin-bottom: 8px;
+    color: gray;
+}
+
+.content-data h3 {
+    font-weight: 500;
+    color: white;
+    border-left: 3px solid rgb(17, 75, 17);
+    padding-left: .5vw;
+    margin: 2vmax 0vmax;
+}
+
+.content-data div li {
+    list-style: none;
+    color: gray;
+    margin-bottom: .5vh;
+}
+
+li span {
+    margin-left: .8vw;
+}
+
+.education li {
+    margin-top: 20px;
+}
+
+.education .course {
+    color: skyblue;
+}
+
+.education .name {
+    color: gray;
+}
+
+.language .percent {
+    width: 12rem;
+    height: 9px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.language .percent .percent-telugu {
+    width: 90%;
+    height: 100%;
+    background: skyblue;
+    border-radius: 5px;
+}
+
+.language .percent .percent-hindi {
+    width: 60%;
+    height: 100%;
+    background: skyblue;
+    border-radius: 5px;
+}
+
+.language .percent .percent-english {
+    width: 80%;
+    height: 100%;
+    background: skyblue;
+    border-radius: 5px;
+}
+
+.language div {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.interests div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile p {
+    color: gray;
+}
+
+.skills .i {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35vh;
+}
+
+.skills .percent {
+    width: 12rem;
+    height: 9px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.skills i {
+    color: gray;
+}
+
+.skills span {
+    color: gray;
+}
+
+.i .c {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.skills .percent .percent-c {
+    width: 70%;
+    height: 100%;
+    background: skyblue;
+    border-radius: 5px;
+}
+
+.skills .percent .percent-cpp {
+    width: 60%;
+    height: 100%;
+    background: skyblue;
+    border-radius: 5px;
+}
+
+.skills .percent .percent-java {
+    width: 50%;
+    height: 100%;
+    background: skyblue;
+    border-radius: 5px;
+}
+
+.skills .percent .percent-DBMS {
+    width: 70%;
+    height: 100%;
+    background: skyblue;
+    border-radius: 5px;
+}
+
+.skills .percent .percent-HTML {
+    width: 70%;
+    height: 100%;
+    background: skyblue;
+    border-radius: 5px;
+}
+
+.skills .percent .percent-CSS {
+    width: 50%;
+    height: 100%;
+    background: skyblue;
+    border-radius: 5px;
+}
+
+.skills .percent .percent-JS {
+    width: 30%;
+    height: 100%;
+    background: skyblue;
+    border-radius: 5px;
+}
