@@ -112,11 +112,11 @@ img {
 }
 
 ion-icon {
-    color: skyblue;
+    color: aquamarine;
 }
 
 i {
-    color: skyblue;
+    color: aquamarine;
 }
 
 .interests div span {
@@ -128,7 +128,7 @@ i {
 .content-data h3 {
     font-weight: 500;
     color: white;
-    border-left: 3px solid rgb(17, 75, 17);
+    border-left: 3px solid aquamarine;
     padding-left: .5vw;
     margin: 2vmax 0vmax;
 }
@@ -148,7 +148,7 @@ li span {
 }
 
 .education .course {
-    color: skyblue;
+    color: aquamarine;
 }
 
 .education .name {
@@ -166,21 +166,21 @@ li span {
 .language .percent .percent-telugu {
     width: 90%;
     height: 100%;
-    background: skyblue;
+    background: aquamarine;
     border-radius: 5px;
 }
 
 .language .percent .percent-hindi {
     width: 60%;
     height: 100%;
-    background: skyblue;
+    background: aquamarine;
     border-radius: 5px;
 }
 
 .language .percent .percent-english {
     width: 80%;
     height: 100%;
-    background: skyblue;
+    background: aquamarine;
     border-radius: 5px;
 }
 
@@ -232,48 +232,48 @@ li span {
 .skills .percent .percent-c {
     width: 70%;
     height: 100%;
-    background: skyblue;
+    background: aquamarine;
     border-radius: 5px;
 }
 
 .skills .percent .percent-cpp {
     width: 60%;
     height: 100%;
-    background: skyblue;
+    background: aquamarine;
     border-radius: 5px;
 }
 
 .skills .percent .percent-java {
     width: 50%;
     height: 100%;
-    background: skyblue;
+    background: aquamarine;
     border-radius: 5px;
 }
 
 .skills .percent .percent-DBMS {
     width: 70%;
     height: 100%;
-    background: skyblue;
+    background: aquamarine;
     border-radius: 5px;
 }
 
 .skills .percent .percent-HTML {
     width: 70%;
     height: 100%;
-    background: skyblue;
+    background: aquamarine;
     border-radius: 5px;
 }
 
 .skills .percent .percent-CSS {
     width: 50%;
     height: 100%;
-    background: skyblue;
+    background: aquamarine;
     border-radius: 5px;
 }
 
 .skills .percent .percent-JS {
     width: 30%;
     height: 100%;
-    background: skyblue;
+    background: aquamarine;
     border-radius: 5px;
 }
